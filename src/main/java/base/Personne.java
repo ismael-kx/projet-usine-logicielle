@@ -36,7 +36,6 @@ public class Personne {
     }
 
     public void setAge(int annee_de_naissance) {
-
         this.age = new DateTime().getYear() - annee_de_naissance;
     }
 }
