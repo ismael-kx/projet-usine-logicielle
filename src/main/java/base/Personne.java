@@ -27,11 +27,9 @@ public class Personne {
         return prenom;
     }
 
-
     public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
-
     public int getAge() {
         return age;
     }
