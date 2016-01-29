@@ -28,12 +28,12 @@
         <repository>
             <id>internal</id>
             <name>Repository Maven des Releases</name>
-            <url>http://localhost:9898/archiva/repository/internal</url>
+            <url>http://localhost:9898/repository/internal</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Repository Maven des Snapshots</name>
-            <url>http://localhost:9898/archiva/repository/snapshots</url>
+            <url>http://localhost:9898/repository/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
