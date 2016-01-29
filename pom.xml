@@ -24,4 +24,16 @@
     </dependency>
 
 </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>internal</id>
+            <name>Repository Maven des Releases</name>
+            <url>http://localhost:9898/archiva/repository/internal</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Repository Maven des Snapshots</name>
+            <url>http://localhost:9898/archiva/repository/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
